@@ -24,13 +24,13 @@ In medical diagnosis or skewed datasets where one class has maximum number of sa
 
 ## Results
 The observation over the task is noticed that the model stops after certain specific number of estimators if there is not much change in the training loss and the training loss converges over the time. The model is tested over the test data and observed to give the over all accuracy of 85% bust as the dataset is skewed towards one class(having much of samples belonging to single class) The followng precision,recall and F1 score values are as follows 
-               precision    recall  f1-score   support
+               
+                       precision    recall  f1-score   support
+    class negative       0.85      0.92      0.88        12
+    class positive       0.88      0.78      0.82         9
 
-class negative       0.85      0.92      0.88        12
-class positive       0.88      0.78      0.82         9
+    avg / total       0.86      0.86      0.86        21
 
-   avg / total       0.86      0.86      0.86        21
-
-Accuracy is: 85.7%
+    Accuracy is: 85.7%
 
 # binaryclassifier_randomforest
