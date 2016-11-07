@@ -11,12 +11,12 @@ The polt shows the  variance curve on the datset and it indicates that the varia
 The 80% of the dataset is assigned to the training set and 20% is assigned to the test dataset.
 
 ## Prerequisities
-The following softwares/Libraries are the prerequities for testing the model .
-python 2.7
-Matplotlib
-sklearn
-pandas
-numpy
+The following softwares/Libraries are the prerequities for testing the model.
+1)python 2.7
+2)Matplotlib
+3)sklearn
+4)pandas
+5)numpy
 please run the set.sh file to install the following dependencies
 
 ## Cost sensitive Random Forest classifier
