@@ -17,6 +17,7 @@ The following softwares/Libraries are the prerequities for testing the model.
 3)sklearn
 4)pandas
 5)numpy
+
 please run the set.sh file to install the following dependencies
 
 ## Cost sensitive Random Forest classifier
